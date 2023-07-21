@@ -239,7 +239,7 @@ footer .cv-pdf i:hover {
 }
 
 .social-links li a i:hover {
-    background: #e84610;
+    background: #e67e22;
 }
 
 #footer-details {
@@ -379,10 +379,13 @@ footer .cv-pdf i:hover {
     max-width: 70%;
 }
 
+form > input {
+    margin-bottom: 5px;
+}
+
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    background-color: #e84610;
     color: #fafafa;
 }
 
@@ -403,7 +406,5 @@ div#map {
     .center-form {
         padding-top: 30px;
         min-height: 240px;
-        margin: 0 auto;
-        max-width: 50%;
     }
 }
