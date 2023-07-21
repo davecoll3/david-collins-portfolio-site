@@ -10,6 +10,14 @@ def index():
     return render_template("index.html")
 
 
+@app.route("/resume")
+def resume():
+    return render_template("resume.html")
+
+@app.route("/contact")
+def contact():
+    return render_template("contact.html")
+
 if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),
