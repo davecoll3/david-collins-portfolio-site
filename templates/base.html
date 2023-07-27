@@ -12,6 +12,10 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
         <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+        {% block headlinks %}
+        {% endblock %}
 
         <!-- Title & Favicon -->
         <title>David Collins</title>

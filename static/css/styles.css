@@ -211,7 +211,7 @@ footer .cv-pdf i {
 }
 
 footer .cv-pdf i:hover {
-    color: #e84610;
+    color: #e67e22;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -376,7 +376,7 @@ footer .cv-pdf i:hover {
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
-    max-width: 70%;
+    max-width: 90%;
 }
 
 form > input {
@@ -388,6 +388,15 @@ button[type="submit"] {
     margin-bottom: 20px;
     color: #fafafa;
 }
+
+.btn-contact {
+    background-color: #3498db;
+}
+
+.btn-contact:hover {
+    background-color: #2C82BB;
+}
+
 
 /*--------------------------------------------Map*/
 div#map {
@@ -406,5 +415,6 @@ div#map {
     .center-form {
         padding-top: 30px;
         min-height: 240px;
+        max-width: 60%;
     }
 }

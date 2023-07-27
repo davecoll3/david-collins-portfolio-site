@@ -6,12 +6,11 @@ function sendMail(contactForm) {
     })
     .then(
         function(response) {
-            console.log("SUCCESS", response);
-            alert("Email sent successfully!");
+            alert("Your email has been sent");
+            document.getElementById("contactFrom").reset();
         },
         function(error) {
-            console.log("FAILED", error);
-            alert("FAILED!"+error);
+            alert("Failed to send email"+error);
         }
     );
     return false;  // To block from loading a new page

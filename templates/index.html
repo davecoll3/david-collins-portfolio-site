@@ -31,6 +31,7 @@
                     <p>Cardiff, Wales, UK</p>
                 </div>
             </div>
+            <div id="map"></div>
         </div>
         <!-- About Me Section -->
         <div class="col-md-8 bg-color-three-reasons section-column">
@@ -80,4 +81,9 @@
         </div>
     </div>
 </section>
+{% endblock %}
+
+{% block jslinks %}
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjDmocKipz1JXhQeTYLYY_WvBC69j_LHg&callback=initMap"></script>
+<script src="static/js/map.js"></script>
 {% endblock %}
