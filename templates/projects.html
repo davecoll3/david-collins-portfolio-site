@@ -1,5 +1,124 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h1>Projects</h1>
+<section class="container-fluid">
+    <div class="row">
+        <div class="col-md-4 bg-color-projects section-column">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="history-heading uppercase">
+                        Projects
+                    </h3>
+                </div>
+            </div>
+            <div class="history-items">
+                <div class="timeline-item" data-dates="05/2023">
+                    <h4>Got No Beans</h4>
+                    <p>Full-Stack eCommerce web application with Django</p>
+                </div>
+                <div class="timeline-item" data-dates="03/2023">
+                    <h4>Speak EV</h4>
+                    <p>Full-Stack web application with Flask</p>
+                </div>
+                <div class="timeline-item" data-dates="12/2022">
+                    <h4>Magic 8 Ball</h4>
+                    <p>Interactive front end web application with JavaScript</p>
+                </div>
+                <div class="timeline-item" data-dates="10/2022">
+                    <h4>Kokochen</h4>
+                    <p>User centric front end web application</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8 bg-color-three-reasons section-column">
+            <div class="row">
+                <div class="col">
+                    <h3 class="section-heading uppercase">Project Details</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="three-reasons-icon fa-solid fa-mug-hot" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="three-reasons-heading uppercase">Got No Beans</h4>
+                            <a href="https://got-no-beans.herokuapp.com/" target="_blank">
+                                <img src="static/img/got-no-beans.webp" class="img-thumbnail" alt="...">
+                            </a>
+                            <p>
+                                GotNoBeans is an online retailer specialising in coffee brewing equipment. 
+                                They offer a wide variety of home brewers and accessories alongside brewing recipes and event listings for their meet-ups around the UK. 
+                                Technologies used to build: HTML, CSS. JavaScript, Python, Django, ElephantSQL,  AWS, Heroku & Bootstrap.
+                                <br>
+                                <a href="https://github.com/davecoll3/GotNoBeans" target="_blank">View GitHub Repo</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="three-reasons-icon fa-solid fa-charging-station" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="three-reasons-heading uppercase">Speak EV</h4>
+                            <a href="https://speak-ev.herokuapp.com/" target="_blank">
+                                <img src="static/img/speak-ev.webp" class="img-thumbnail" alt="...">
+                            </a>
+                            <p>
+                                Speak EV is a crowdsourced dictionary of terms and jargon related to electric vehicles (EVs). 
+                                The site allows any visitor to view the dictionary and registered users to add their own terms to it.
+                                Technologies used to build: HTML, CSS, JavaScript, Python, Flask, MongoDB & Materialize.
+                                <br>
+                                <a href="https://github.com/davecoll3/speak-ev" target="_blank">View GitHub Repo</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="three-reasons-icon fa-solid fa-8" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="three-reasons-heading uppercase">Magic 8 Ball</h4>
+                            <a href="https://davecoll3.github.io/magic-8-ball/" target="_blank">
+                                <img src="static/img/magin-8-ball.webp" class="img-thumbnail" alt="...">
+                            </a>
+                            <p>
+                                The Magic 8 Ball is used for fortune telling or seeking advice. 
+                                This is a fun website where users can ask the Magic 8 Ball a question and receive a response that affirms or rejects their query. 
+                                Technologies used to build: HTML, CSS, JavaScript & Bootstrap.
+                                <br>
+                                <a href="https://github.com/davecoll3/magic-8-ball" target="_blank">View GitHub Repo</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="three-reasons-icon fa-solid fa-palette" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="three-reasons-heading uppercase">Kokochen</h4>
+                            <a href="https://davecoll3.github.io/kokochen/index.html" target="_blank">
+                                <img src="static/img/kokochen.png" class="img-thumbnail" alt="...">
+                            </a>
+                            <p>
+                                Marien Wong Kwok Chuen - aka. Kokochen - is a freelance illustrator living in Metz, France. 
+                                This portfolio site showcases Marine's illustrations and examples of her work. 
+                                Technologies used to build: HTML, CSS & Bootstrap.
+                                <br>
+                                <a href="https://github.com/davecoll3/kokochen" target="_blank">View GitHub Repo</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 {% endblock %}

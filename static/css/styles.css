@@ -14,8 +14,8 @@
     background-color: #f4f4f4;
 }
 
-.bg-color-skills {
-    background-color: #ffffff;
+.bg-color-projects {
+    background-color: #e74c3c;
 }
 
 .bg-color-work-history {
@@ -55,7 +55,7 @@
     background-color: #1c4a6c;
 }
 
-.ui-menu-color-interests {
+.ui-menu-color-projects {
     background-color: #e74c3c;
 }
 
@@ -244,6 +244,12 @@ footer .cv-pdf i:hover {
 
 #footer-details {
     margin: 20px;
+}
+
+/*--------------------------------------------Images*/
+
+.img-thumbnail {
+    border: none;
 }
 
 /*--------------------------------------------Three Reasons*/
