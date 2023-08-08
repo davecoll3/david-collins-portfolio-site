@@ -409,6 +409,45 @@ div#map {
     min-height: 360px;
 }
 
+/*--------------------------------------------To top button*/
+#to-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 15px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    color: hsla(0, 0%, 83%,.9);
+    background: none;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 30px;
+}
+
+#to-top-btn:hover {
+    color: #bdbdbd;
+}
+
+#to-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    color: hsla(0, 0%, 83%,.9);
+    background: none;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 30px;
+}
+
+#to-top-btn:hover {
+    color: #bdbdbd;
+}
+
 /*--------------------------------------------Media Queries*/
 
 @media(min-width: 992px) {
