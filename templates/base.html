@@ -26,7 +26,8 @@
         <!-- Header -->
         <header>
             <div class="row no-gutters">
-                <a class="col-md-4 logo" href="02-index.html"></a>
+                <a data-target="#myModal" data-toggle="modal" class="col-md-4 logo" 
+                    id="myImg" href="#myModal"></a>
                 <div class="col-md-8">
                     <!-- Header Text -->
                     <div class="row no-gutters bg-color-name-title">
@@ -87,6 +88,13 @@
                 </div>
             </div>
         </header>
+
+        <!-- Image Modal -->
+        <div id="myModal" class="modal hidden">
+            <span class="close">&times;</span>
+            <img src="/static/img/david.webp" class="modal-content" id="img01">
+            <div id="caption">David Collins</div>
+        </div>
 
         {% block content %}
         {% endblock %}
@@ -163,6 +171,7 @@
         </footer>
 
         <script src="/static/js/to-top-btn.js"></script>
+        <script src="/static/js/modal.js"></script>
         {% block jslinks %}
         {% endblock %}
 
