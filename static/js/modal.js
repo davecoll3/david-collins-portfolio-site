@@ -1,26 +1,18 @@
 // Get the modal
-const modal = document.querySelector("#myModal"); 
-const body = document.querySelector("body"); 
+const modal = document.getElementById("myModal");
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-let img = document.getElementById("myImg");
-img.onclick = function(){
-  modal.style.display = "block";
-  modal.classList.toggle("hidden"); 
-  
-            if (!modal.classList.contains("hidden")) { 
-                // Disable scroll 
-                body.style.overflow = "hidden"; 
-            } else { 
-                // Enable scroll 
-                body.style.overflow = "auto"; 
-            } 
+// Open modal when image is clicked and disable scrolling
+const img = document.getElementById("myImg");
+img.onclick = function() {
+    modal.style.display = "block";
+    document.body.style.overflow = "hidden";
 }
 
 // Get the <span> element that closes the modal
-let span = document.getElementsByClassName("close")[0];
+const span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() { 
   modal.style.display = "none";
+  document.body.style.overflow = "auto";
 }
