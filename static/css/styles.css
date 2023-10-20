@@ -1,6 +1,50 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*--------------------------------------------Colors*/
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    background-color: #525252;
+    color: #555555;
+}
+
+/* Padding/Margins/Text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+
+.row-table {
+    display: table;
+}
+
+.history-heading,
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+
+/* Colors */
 
 .bg-color-name-title {
     background-color: #000;
@@ -60,54 +104,22 @@
 }
 
 
+/* Images */
 
-
-body {
-    font-family: Roboto, sans-serif;
-    font-weight: 300;
-    background-color: #525252;
-    color: #555555;
+.img-thumbnail {
+    border: none;
 }
 
 
-/*--------------------------------------------Special Paddings/Margins/Text*/
+/* Hover effects */
 
-h1,
-h2,
-h3,
-h4 {
-    margin: 0;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.general-sub {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    color: #fafafa;
-}
-
-.inline-block {
-    display: inline-block;
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
 }
 
 
-.row-table {
-    display: table;
-}
-
-.history-heading,
-.section-heading {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 40px;
-}
-
-
-/*--------------------------------------------Heading*/
+/* Heading */
 
 header {
     margin: 0;
@@ -186,15 +198,7 @@ header {
 }
 
 
-/*--------------------------------------------Hover.css*/
-
-.hvr-sweep-to-bottom:before {
-    background: rgba(0, 0, 0, 0.2);
-    height: 120px;
-}
-
-
-/*--------------------------------------------Footer*/
+/* Footer */
 
 footer {
     background-color: #525252;
@@ -246,13 +250,8 @@ footer .cv-pdf i:hover {
     margin: 20px;
 }
 
-/*--------------------------------------------Images*/
 
-.img-thumbnail {
-    border: none;
-}
-
-/*--------------------------------------------Three Reasons*/
+/* About Me Section */
 
 .three-reasons-icon {
     font-size: 26px;
@@ -263,7 +262,7 @@ footer .cv-pdf i:hover {
     margin-bottom: 15px;
 }
 
-/*--------------------------------------------Personal Info*/
+/* Personal Info */
 
 .personal-info-item {
     margin-bottom: 20px;
@@ -299,7 +298,7 @@ footer .cv-pdf i:hover {
     width: 60%;
 }
 
-/*--------------------------------------------Skills*/
+/* My Skills */
 
 .progress {
     position: relative;
@@ -315,13 +314,12 @@ footer .cv-pdf i:hover {
     background-color: rgba(25, 25, 25, 0.2);
 }
 
-
 .progress-section {
     margin: 40px 20px;
 }
 
 
-/*--------------------------------------------Work History*/
+/* Work History */
 
 .timeline-item {
     padding: 4em 2em 0em 2em;
@@ -369,7 +367,8 @@ footer .cv-pdf i:hover {
     margin-bottom: 30px;
 }
 
-/*--------------------------------------------Contact*/
+
+/* Contact */
 
 .contact-heading {
     font-family: "Exo", sans-serif;
@@ -404,12 +403,14 @@ button[type="submit"] {
 }
 
 
-/*--------------------------------------------Map*/
+/* Map */
+
 div#map {
     min-height: 360px;
 }
 
-/*--------------------------------------------Modal*/
+
+/* Modal */
 
 /* Style the Image Used to Trigger the Modal */
 #myImg {
@@ -491,7 +492,9 @@ div#map {
     }
   }
 
-/*--------------------------------------------To top button*/
+
+/* To Top Button */
+
 #to-top-btn {
     display: none;
     position: fixed;
@@ -530,7 +533,7 @@ div#map {
     color: #bdbdbd;
 }
 
-/*--------------------------------------------Media Queries*/
+/* Media Queries */
 
 @media(min-width: 992px) {
     .section-column {
